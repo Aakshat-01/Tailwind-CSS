@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <title>Document</title>
-</head>
-<body>
-     <nav>
-        <ul class="flex justify-">
-            <li>Home</li>
-            <li>About</li>
-            <li>Catelogue</li>
-            <li>Contacts</li>
-        </ul>
-     </nav>
-</body>
+    <title>Best Used Books</title>
+  </head>
+  <body>
+    <nav class="bg-blue-900 text-white flex justify-between">
+      <!-- <img src="logo.png" class="h-12 pt-1 px-3 rounded-2xl" alt="" srcset=""> -->
+      <span class="text-2xl flex items-center mx-3">BooksMania</span>
+      <ul class="flex px-28 py-3 space-x-16 justify-end">
+        <li class="cursor-pointer">Home</li>
+        <li class="cursor-pointer">About</li>
+        <li class="cursor-pointer">Catalogue</li>
+        <li class="cursor-pointer">Contacts</li>
+      </ul>
+    </nav>
+    <main class="bg-slate-200 flex justify-around">
+      <div class="main py-40 pl-9">
+        <div class="text-6xl">The best books in the town</div>
+        <p class="py-3 w-1/2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias
+          nihil quibusdam sint veritatis? Veritatis, accusamus velit rem
+          nesciunt provident vero nam temporibus modi ex recusandae. Hic,
+          inventore debitis. Quas, ipsam?
+        </p>
+        <div class="my-4">
+          <button class="bg-blue-300 px-3 py-2 rounded-2xl text-white hover:text-blue-800 hover:bg-white mx-2 hover:border hover:border-purple-900">Buy Now</button>
+          <button class="bg-blue-300 px-3 py-2 rounded-2xl text-white hover:text-blue-800 hover:bg-white mx-2 hover:border hover:border-purple-900">Contact Us</button>
+        </div>
+      </div>
+      <div class="flex items-center">
+        <img src="person.png">
+      </div>
+    </main>
+    <hr>
+  </body>
 </html>
